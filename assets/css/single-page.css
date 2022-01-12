@@ -1,0 +1,151 @@
+.u-section-1 .u-sheet-1 {
+    min-height: auto;
+}
+
+.u-section-1 .u-text-1 {
+    margin: 9px 0;
+}
+
+.u-section-2 {
+    background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+    min-height: 377px;
+}
+
+.u-section-2 .u-group-1 {
+    min-height: 306px;
+    margin-top: 29px;
+    margin-bottom: 60px;
+    height: auto;
+}
+
+.u-section-2 .u-container-layout-1 {
+    padding: 0 30px 30px;
+}
+
+.u-section-2 .u-text-1 {
+    margin: 19px 0 0;
+}
+
+.u-section-2 .u-text-2 {
+    margin: 9px 0 0;
+}
+
+.u-section-2 .u-text-3 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1199px) {
+    .u-section-2 .u-group-1 {
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-2 .u-container-layout-1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.u-sheet-1 .u-text-1 {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.u-sheet-1 .u-text-1 li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+.u-section-1 {
+    padding: 10px 0px;
+    background-color: #fff;
+    height: auto;
+}
+
+.wrapper {
+    background-color: #e5e5e5;
+}
+
+.u-section-2 {
+    margin: 30px 10px;
+}
+
+.u-section-2 .u-group-1 {
+    padding: 30px 0px;
+}
+
+.u-container-layout-1 .u-text-2 {
+    list-style-type: none;
+    border-bottom: none;
+}
+
+.u-container-layout-1 .u-text-2 li {
+    /* display: inline; */
+    padding: 0px 05px;
+}
+
+/* .u-container-layout-1 .u-text-2 li:first-child {
+    padding-left: -30px;
+    margin-left: -30px;
+} */
+
+.u-container-layout-1 h1 {
+    font-size: 35px;
+}
+
+.u-container-layout-1 .u-text-3 {
+    margin-top: 20px;
+}
+
+.u-section-2 .u-image-2 {
+    height: 265px;
+    margin: 64px 0 60px;
+}
+
+.u-section-2 .u-image-1 {
+    height: 265px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+@media (max-width: 1199px) {
+    .u-section-2 .u-image-1 {
+        height: 219px;
+    }
+}
+
+@media (max-width: 991px) {
+    .u-section-2 .u-image-1 {
+        height: 168px;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-2 .u-image-1 {
+        height: 126px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-section-2 .u-image-1 {
+        height: 79px;
+    }
+}
+
+.u-container-layout-1 .u-text-2{
+    list-style-type: none;
+    margin: 20px 0px;
+    padding: 0px 0px;
+}
+
+.u-container-layout-2 .u-text-4 {
+    list-style-type: none;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}

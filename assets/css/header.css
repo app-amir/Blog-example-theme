@@ -1,0 +1,206 @@
+.u-section-2 .u-sheet-1 {
+min-height: 80px;
+}
+
+.u-section-2 .u-layout-wrap-1 {
+width: 1140px;
+margin: 1px 0;
+}
+
+.u-section-2 .u-layout-cell-1 {
+min-height: 79px;
+}
+
+.u-section-2 .head-section-logo {
+	padding: 20px 30px;
+}
+
+/* .u-section-2 .u-text-1 {
+margin: 0 234px 0 0;    
+} */
+
+.u-section-2 .u-layout-cell-2 {
+min-height: 79px;
+}
+
+.u-section-2 .u-container-layout-2 {
+padding: 26px 30px;
+}
+
+.u-section-2 .single-breadcrum {
+margin: 10px 0 0 0px;
+}
+
+.u-section-2 .single-breadcrum li {
+	display: inline;
+	padding: 0px 5px;
+}
+
+@media (max-width: 1199px) {
+.u-section-2 .u-sheet-1 {
+	min-height: 504px;
+}
+
+.u-section-2 .u-layout-wrap-1 {
+	width: 940px;
+}
+
+.u-section-2 .u-layout-cell-1 {
+	min-height: 98px;
+}
+
+.u-section-2 .u-text-1 {
+	margin-right: 134px;
+}
+
+.u-section-2 .u-layout-cell-2 {
+	min-height: 73px;
+}
+}
+
+@media (max-width: 991px) {
+.u-section-2 .u-sheet-1 {
+	min-height: 487px;
+}
+
+.u-section-2 .u-layout-wrap-1 {
+	width: 720px;
+}
+
+.u-section-2 .u-layout-cell-1 {
+	min-height: 100px;
+}
+
+.u-section-2 .u-text-1 {
+	margin-right: 24px;
+}
+
+.u-section-2 .u-layout-cell-2 {
+	min-height: 100px;
+}
+}
+
+@media (max-width: 767px) {
+.u-section-2 .u-sheet-1 {
+	min-height: 599px;
+}
+
+.u-section-2 .u-layout-wrap-1 {
+	width: 540px;
+}
+
+.u-section-2 .u-container-layout-1 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.u-section-2 .u-container-layout-2 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+
+@media (max-width: 575px) {
+.u-section-2 .u-sheet-1 {
+	min-height: 537px;
+}
+
+.u-section-2 .u-layout-wrap-1 {
+	width: 340px;
+}
+
+.u-section-2 .u-text-1 {
+	margin-right: 0;
+}
+}
+
+/*--------------------------------------------- */
+/* Navigation Get from Underscore Theme  */
+
+.main-navigation {
+	display: block;
+	width: 100%;
+}
+
+.main-navigation ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.main-navigation ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	float: left;
+	position: absolute;
+	top: 100%;
+	left: -999em;
+	z-index: 99999;
+}
+
+.main-navigation ul ul ul {
+	left: -999em;
+	top: 0;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	display: block;
+	left: auto;
+}
+
+.main-navigation ul ul a {
+	width: 200px;
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	left: auto;
+}
+
+.main-navigation li {
+	position: relative;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+
+	.menu-toggle {
+		display: none;
+	}
+
+	.main-navigation ul {
+		display: flex;
+	}
+}
+
+.menu-testing-menu-container ul li{
+	padding: 0px 10px;
+}
+.menu-testing-menu-container{
+	float: right;
+	padding-top: 10px;
+}
+.sub-menu{
+	background-color: #fff;
+	margin: 0px 0px;
+	padding: 10px 0px;
+}
+.sub-menu li{
+	padding: 10px 10px;
+	margin-right: -50px;
+}
+#foot-menu.menu{
+	display: block;
+	margin: 10px 5px; 
+}
